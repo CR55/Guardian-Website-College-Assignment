@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!--
+    * Author: CIAN ROCHE
+    * Assignment: FEWD-CIAN-ROCHE-ASSESSMENT-2
+    * Student ID: D14126317
+    * Date  : 2015/07/17
+    * Ref: 	Bootstrap- http://getbootstrap.com/
+           	j-Query - http://jquery.com/
+          	Guardian Egyptian Web font - www.theguardian.co.uk
+          	Icons - http://geekfairy.co.uk/free-coloured-round-social-media-icons/
+          			Font-awesome - http://fortawesome.github.io/Font-Awesome/
+          			http://robby-designs.deviantart.com/art/Socialcircles-Free-social-icons-circular-347921678
+
+     NOTES:  
+     To view the blog page click on the twitter headline (row two in the technology section).
+     The home icon is also functional.
+
+     The 'all-sections' button in the Nav can also be clicked to reveal all the links in the nav (as some get hidden when the browser window is resized).
+    -->
+
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Blog Page</title>
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body class="blog">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<nav class="navbar navbar-default">
+			      	    <div class="navIcon">
+							<a href="#"><img class="navIconSize" src="icons/circle_icons/flickr42.png" alt="sign in">
+								<span class="navIconText">Sign in</span>
+							</a>
+							<a href="#"><img class="navIconSize" src="icons/circle_icons/flickr42.png" alt="subscribe">
+								<span class="navIconText">Subscribe</span>
+							</a>
+							<a href="#"><img class="navIconSize" src="icons/circle_icons/flickr42.png" alt="search">
+								<span class="navIconText">Search</span>
+							</a>
+							
+							<a href="#">
+								<span class="navTextRight">UK edition
+									<i class="fa fa-caret-down"></i>
+								</span>
+							</a>
+							<a href="#">
+								<span class="navTextRight">more
+									<i class="fa fa-caret-down"></i>
+								</span>
+							</a>
+							<a href="#">
+								<span class="navTextRight">dating</span>
+							</a>
+							<a href="#">
+								<span class="navTextRight">jobs</span>
+							</a>					
+						</div>
+
+			      	    <div class="navbar-header pull-right">
+			          		<a class="navbar-brand" href="index.html"><span style="color:#93ECFF; font-size: 70px">the</span><span style="color:#FFF; font-size: 70px">guardian</span></a>
+			        	</div>
+
+
+			          	<ul class="nav navbar-nav">
+				            <li class="active">
+				            	<a href="index.html">
+				            		<span class="fa fa-home fa-lg" aria-hidden="true"></span>
+				            	</a>
+				            </li>
+				            <li><a href="#">UK</a></li>
+				            <li><a href="#">election</a></li>
+							<li><a href="#">world</a></li>
+							<li><a href="#">sport</a></li>
+							<li class="hidden-xs"><a href="#">football</a></li>		
+							<li class="hidden-xs"><a href="#">opinion</a></li>
+							<li><a href="#">culture</a></li>
+							<li class="hidden-sm hidden-xs"><a href="#">business</a></li>
+							<li class="hidden-sm hidden-xs"><a href="#">lifestyle</a></li>
+							<li class="hidden-md hidden-sm hidden-xs"><a href="#">fashion</a></li>
+							<li class="hidden-md hidden-sm hidden-xs"><a href="#">environment</a></li>
+							<li class="hidden-sm hidden-xs"><a href="#">tech</a></li>
+							<li class="hidden-md hidden-sm hidden-xs"><a href="#">travel</a></li>
+							<li	class="dropdown">
+							<button class="btn btn-primary navBtnExpand" type="button" data-toggle="collapse" data-target="#collapseNavBtn" aria-expanded="false" aria-controls="collapseNavBtn">
+							all sections	
+							</button>
+								<div class="collapse" id="collapseNavBtn">
+									<ul class="nav navbar-nav">
+			                    		<li class="active">
+							            	<a href="index.html">
+							            		<span class="fa fa-home fa-lg" aria-hidden="true"></span>
+							            	</a>
+							            </li>
+							            <li><a href="#">UK</a></li>
+							            <li><a href="#">election</a></li>
+										<li><a href="#">world</a></li>
+										<li><a href="#">sport</a></li>
+										<li><a href="#">football</a></li>		
+										<li><a href="#">opinion</a></li>
+										<li><a href="#">culture</a></li>
+										<li><a href="#">business</a></li>
+										<li><a href="#">lifestyle</a></li>
+										<li><a href="#">fashion</a></li>
+										<li><a href="#">environment</a></li>
+										<li><a href="#">tech</a></li>
+										<li><a href="#">travel</a></li>                   
+			                		</ul>
+								</div>																			
+							</li>
+				        </ul>
+			    	</nav>					
+				</div>			
+			</div><!--end of row-->
+			
+			
+		    <div class="row">
+		    	<div class="col-lg-12">
+		    		<div class="breadcrumbs">
+			        	<p class="homeTech">home > tech</p>
+				    </div>
+		    	</div>			
+			</div><!--end of row-->
+
+			<div class="row">
+				<div class="col-lg-2">
+					<div class="techStyle">
+		    			<span class="text">Twitter</span>
+		    		</div>
+	    		</div>
+	    	</div><!--end of row-->
+
+	    	
+
+	    	<div class="row">
+	    		<div class="col-lg-8 col-lg-offset-2">	
+					<div class="col-lg-12 col-md-12">
+						<h2 class="twitterHeadline">Twitter announces crackdown on abuse with new
+	     					filter and tighter rules
+	     				</h2>
+	     				<p class="paragraphText">
+							Social network moves to ban indirect threats of violence and introduces temporary suspension for accounts that fall foul of it's policies
+						</p>
+
+						<div class="twitterPhoto">
+							<img src="images/blog-section/twitter.jpg" alt="photo" class="img-responsive imgLarge" style="width:100%">
+							<p class="photoCaption">
+								<i class="glyphicon glyphicon-camera"></i>Twitter CEO Dick Costolo speaks during The Twitter Seminar as part of Cannes Lions festival.<br>
+								Photograph: Francois G. Durand/Getty Images
+							</p>
+						</div>
+		     		</div>
+		     	</div>
+	    	</div><!--end of row-->
+
+	    	<div class="row">
+	    		<div class="col-lg-8 col-lg-offset-2">	
+					<div class="col-lg-12 col-md-12 twitterRow">
+						<span class="text">Alex Hern</span>
+						<p class="paragraphText" style="margin-left:10px"><i class="fa fa-lg fa-twitter"></i><a href="#">@alexhearn</a><br>
+						Tuesday 21 april 2015 16.00 BST</p>						
+					</div>
+				</div>
+	    	</div><!--end of row-->
+
+
+	    	<div class="row">
+	    		<div class="col-lg-8 col-lg-offset-2">	
+		    		<div class="col-lg-12 col-md-12">
+		    			<a href="#"><img src="icons/social_media_icons/Facebook_Round.png" alt="facebook" class="smIcons"></a>
+		    			<a href="#"><img src="icons/social_media_icons/Twitter_round.png" alt="twitter" class="smIcons"></a>
+		    			<a href="#"><img src="icons/social_media_icons/Linkedin_round.png" alt="linkedin" class="smIcons"></a>
+		    			<a href="#"><img src="icons/social_media_icons/Google_plus_round.png" alt="google" class="smIcons"></a>
+		    			<p class="twitterStatsTwo"><i class="glyphicon glyphicon-comment" style="color:#00467A"></i>Comments<br><span class="numSize">195</span></p>
+		    			<p class="twitterStats">Shares<br><span class="numSize">1,281</span></p>
+		    		</div>
+		    	</div>
+		    </div><!--end of row-->
+
+		    <div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="col-lg-12 col-md-12">
+						<p class="twitterText">
+							Twitter has announced a crackdown on abuse on it's social network, unveiling a new filter designed to automatically prevent users from seeing threatening messages. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dolor officia assumenda vero distinctio adipisci sint! Architecto tempore vitae porro, temporibus, reiciendis esse distinctio dicta aliquid officiis consectetur iste voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, quam consectetur sequi, temporibus nisi dolorum! Nam alias commodi quod placeat facilis explicabo, dolore maxime iusto, labore perferendis modi. Earum, laudantium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, enim est. Placeat ad deserunt, eum corrupti minima velit esse, eaque aspernatur reprehenderit accusamus consequatur sequi eveniet quod, id, delectus dolorum.
+						</p>
+					</div>
+				</div>
+			</div><!--end of row-->
+	    </div><!--end of container-->
+
+
+
+
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>	
+
+		 <!-- Include all compiled plugins (below), or include individual files as needed -->
+		    <script src="js/bootstrap.min.js"></script>	
+  </body>
+</html>

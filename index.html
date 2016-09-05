@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<!--
+	    * Author: CIAN ROCHE
+	    * Assignment: FEWD-CIAN-ROCHE-ASSESSMENT-2
+	    * Student ID: D14126317
+	    * Date  : 2015/07/17
+	    * Ref: 	Bootstrap- http://getbootstrap.com/
+	           	j-Query - http://jquery.com/
+	          	Guardian Egyptian Web font - www.theguardian.co.uk
+	          	Icons - http://geekfairy.co.uk/free-coloured-round-social-media-icons/
+	          			Font-awesome - http://fortawesome.github.io/Font-Awesome/
+	          			http://robby-designs.deviantart.com/art/Socialcircles-Free-social-icons-circular-347921678
+
+	     NOTES:  
+	     To view the blog page click on the twitter headline (row two in the technology section).
+	     The home icon is also functional.
+
+	     The 'all-sections' button in the Nav can also be clicked to reveal all the links in the nav (as some get hidden when the browser window is resized).
+	    -->
+
+
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>FEWD-CIAN-ROCHE-ASSESSMENT-2</title>
+		
+		<!--bootstrap-->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!--font-awesome icons-->
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body class="home">
+
+  <!--NAV-->
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<nav class="navbar navbar-default">
+					<div class="navIcon">
+						<a href="#"><img class="navIconSize" src="icons/circle_icons/flickr42.png" alt="sign in">
+							<span class="navIconText">Sign in</span>
+						</a>
+						<a href="#"><img class="navIconSize" src="icons/circle_icons/flickr42.png" alt="subscribe">
+							<span class="navIconText">Subscribe</span>
+						</a>
+						<a href="#"><img class="navIconSize" src="icons/circle_icons/flickr42.png" alt="search">
+							<span class="navIconText">Search</span>
+						</a>
+						
+						<a href="#">
+							<span class="navTextRight">UK edition
+								<i class="fa fa-caret-down"></i>
+							</span>
+						</a>
+						<a href="#">
+							<span class="navTextRight">more
+								<i class="fa fa-caret-down"></i>
+							</span>
+						</a>
+						<a href="#">
+							<span class="navTextRight">dating</span>
+						</a>
+						<a href="#">
+							<span class="navTextRight">jobs</span>
+						</a>					
+					</div>
+
+		      	    <div class="navbar-header pull-right">
+		          		<a class="navbar-brand" href="index.html"><span style="color:#93ECFF; font-size: 70px">the</span><span style="color:#FFF; font-size: 70px">guardian</span></a>
+		        	</div>
+
+		          <ul class="nav navbar-nav">
+		            <li class="active">
+		            	<a href="index.html">
+		            		<span class="fa fa-home fa-lg" aria-hidden="true"></span>
+		            	</a>
+		            </li>
+		            <li><a href="#">UK</a></li>
+		            <li><a href="#">election</a></li>
+					<li><a href="#">world</a></li>
+					<li><a href="#">sport</a></li>
+					<li class="hidden-xs"><a href="#">football</a></li>		
+					<li class="hidden-xs"><a href="#">opinion</a></li>
+					<li><a href="#">culture</a></li>
+					<li class="hidden-sm hidden-xs"><a href="#">business</a></li>
+					<li class="hidden-sm hidden-xs"><a href="#">lifestyle</a></li>
+					<li class="hidden-md hidden-sm hidden-xs"><a href="#">fashion</a></li>
+					<li class="hidden-md hidden-sm hidden-xs"><a href="#">environment</a></li>
+					<li class="hidden-sm hidden-xs"><a href="#">tech</a></li>
+					<li class="hidden-md hidden-sm hidden-xs"><a href="#">travel</a></li>
+
+					<!--'all sections' dropdown containing hidden elements when window is resized--> 
+					<div>
+					<li	class="dropdown">
+					<button class="btn btn-primary navBtnExpand" type="button" data-toggle="collapse" data-target="#collapseNavBtn" aria-expanded="false" aria-controls="collapseNavBtn">
+					all sections	
+					</button>
+						<div class="collapse no-transition" id="collapseNavBtn">
+							<ul class="nav navbar-nav">
+	                    		<li class="active">
+					            	<a href="index.html">
+					            		<span class="fa fa-home fa-lg" aria-hidden="true"></span>
+					            	</a>
+					            </li>
+					            <li><a href="#">UK</a></li>
+					            <li><a href="#">election</a></li>
+								<li><a href="#">world</a></li>
+								<li><a href="#">sport</a></li>
+								<li><a href="#">football</a></li>		
+								<li><a href="#">opinion</a></li>
+								<li><a href="#">culture</a></li>
+								<li><a href="#">business</a></li>
+								<li><a href="#">lifestyle</a></li>
+								<li><a href="#">fashion</a></li>
+								<li><a href="#">environment</a></li>
+								<li><a href="#">tech</a></li>
+								<li><a href="#">travel</a></li>                   
+	                		</ul>
+						</div>																			
+					</li>
+					</div>
+		          </ul>
+		    	</nav>				
+			</div><!--end col-lg-12-->			
+		</div><!--end of row-->
+
+  <!--END NAV-->
+		
+
+  <!--TECHNOLOGY SECTION-->
+
+	    <div class="row">
+	    	<div class="col-lg-12">
+	    		<div class="breadcrumbs">
+		        	<p class="homeTech">home > tech</p>
+			    </div>
+	    	</div>			
+		</div><!--end of row-->
+
+		<div class="row">
+			<div class="col-lg-2">
+				<div class="techStyle">
+	    			<span class="text">Technology</span>
+	    		</div>
+    		</div>
+			
+
+    		<div class="col-lg-10 col-lg-offset-2">	
+				<div class="col-lg-6 col-md-6">
+					<div class="divStylesColored">
+						<img src="images/article-section/article-1.jpg" alt="photo" class="img-responsive">
+						<h3>Will the next Angry Birds come out of India?</h3>
+						<p class="comments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>
+	     		</div>
+
+				
+
+				<div class="col-lg-3 col-md-3">
+					<div class="divStyles">
+						<img src="images/gadgets-section/article-1.jpeg" alt="photo" class="img-responsive">
+						<h4>How scratch resistant is the Apple Watch Sport's Screen?</h4>
+						<p class="paragraphText">Cheapest model lacks hard sapphire screen, instead relying on
+						hardened glass similar to smartphones. But is it scratch resistant
+						enough for a watch?</p>
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>
+				</div>
+
+				
+
+				<div class="col-lg-3 col-md-3">
+					<div class="divStyles">
+						<img src="images/article-section/article-4.jpeg" alt="photo" class="img-responsive">
+						<h4>Facebook:latest news feed tweak gives more priority to your friends</h4>
+						<p class="paragraphText">
+							Fewer posts from pages or strangers that friends have interacted with: 'People are 
+							worried about missing important updates from friends they care about'
+						</p>
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>8 comments</span></p>
+					</div>				
+				</div>
+			</div><!--end col-lg-10 col-lg-offset-2-->
+		</div><!--end of row-->
+	  </div><!--end of container-->
+   
+	     
+	  <div class="container">
+		<div class="row">			
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="col-lg-3 col-md-3">
+	    			<div class="divStylesRowTwo">
+	    			 	<h5>Networking flaw opens millions of iOS app users
+						to data theft</h5>
+					<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>   			 									
+    			 	</div>				
+     			</div>
+
+
+	     		<div class="col-lg-3 col-md-3">
+	     			<div class="divStylesRowTwo">
+	     				<h5>
+	     					<a class="blogLink" href="blog.html">Twitter announces crackdown on abuse with new
+	     					filter and tighter rules</a>
+	     				</h5>
+	     				<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p> 
+	     			</div>
+	     		</div>
+
+				
+				<div class="col-lg-3 col-md-3">	
+					<div class="divStylesRowTwoColored">
+						<h5>Star Wars Battlefront - the quest to capture fan nostalgia</h5>		
+						<p class="comments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>
+				
+				<div class="col-lg-3 col-md-3">			
+					<div class="divStylesRowTwo">
+						<h5>Google and ComCast lobbying spending soars in
+					first quarter of 2015</h5>			
+					<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>9 comments</span></p>
+				
+					</div>
+				</div>
+			</div>   			
+		</div><!--end of row-->
+	  </div><!--end of container-->
+
+	
+	  <div class="container">
+		<div class="row bottomRow">
+			<div class="col-lg-2 hidden-md hidden-sm hidden-xs">
+				<div class="dropdown">
+					<button class="btn btn-primary" type="button" id="todaysStoriesBtn">
+			  		All today's stories
+					</button>					
+				</div>
+			</div>
+			<div class="col-lg-10">
+				<div class="col-lg-3 col-md-3">
+	    			<div class="divStylesRowThree">
+	    			 	<h5>Snapchat's cheeky attempts to poach rivals'
+						employees revealed</h5>
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>   			 									
+    			 	</div>				
+     			</div>
+
+	     		<div class="col-lg-3 col-md-3">
+	     			<div class="divStylesRowThree">
+	     				<h5>Google almost bought Tesla when it had just two
+     					weeks of cash left</h5>
+	     				<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p> 
+	     			</div>
+	     		</div>
+
+				<div class="col-lg-3 col-md-3">	
+					<div class="divStylesRowThree">
+						<h5>Google's 'mobilegeddon' will shake up search results</h5>		
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>
+
+				<div class="col-lg-3 col-md-3">			
+					<div class="divStylesRowThree">
+						<h5>Kink app hopes iPhone owners will co-create the
+					next Fifty Shades Of Grey</h5>			
+					<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>9 comments</span></p>
+				
+					</div>
+				</div>
+			</div>   			
+		</div><!--end of row-->
+	
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="dropdown">
+					<button class="btn btn-primary btnExpand" type="button" data-toggle="collapse" data-target="#collapseBtn" aria-expanded="false" aria-controls="collapseBtn"><i class="glyphicon glyphicon-plus glyphicon-lg"></i><span style="font-family: Guardian Egyptian Web">
+			  		More technology</span>
+					</button>
+					<div class="collapse" id="collapseBtn">Dropdown menu items here</div>
+				</div>
+			</div>
+		</div><!--end of row-->
+	  </div><!--end container--> 
+
+  <!--END TECHNOLOGY SECTION-->
+
+  <!--NEWS SECTION-->
+
+	<div class="container">
+   		<div class="row">
+	    	<div class="col-lg-12">
+	    		<div class="breadcrumbs">
+		        	<p class="homeTech"></p>
+			    </div>
+	    	</div>			
+		</div><!--end of row-->
+
+
+
+		<div class="row">
+			<div class="col-lg-2">
+				<div class="techStyle">
+	    			<span class="text">News</span>
+	    		</div>
+    		</div>
+			
+
+    		<div class="col-lg-10 col-lg-offset-2">	
+				<div class="col-lg-3 col-md-3">
+					<div class="divStylesColored" id="googleArticle">
+						<img src="images/news-section/article-1.jpg" alt="photo" class="img-responsive">
+						<h3 id="googleHeadline">Google launches Project Fi, US wireless service designed to curb data use</h3>
+						<p class="comments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>
+	     		</div>
+
+				
+
+				<div class="col-lg-3 col-md-3">
+					<div class="divStylesNews">						
+						<h5>Amazon to deliver parcels directly to car boots</h5>
+						<p class="paragraphText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis autem, vitae facilis eum pariatur, in dicta sapiente maxime eligendi! Voluptatum soluta consequuntur tempora, dignissimos animi ab dolorem velit eos quia?</p>
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>						
+				</div>
+
+				
+
+				<div class="col-lg-3 col-md-3">
+					<div class="divStylesNews">
+						
+						<h5>What can I do if Windows won’t run my old software, such as Quicken 2002?</h5>
+						<p class="paragraphText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis autem, vitae facilis eum pariatur, in dicta sapiente maxime eligendi! Voluptatum soluta consequuntur tempora, dignissimos animi ab dolorem velit eos quia?</p>
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>8 comments</span></p>
+
+					</div>				
+				</div>
+
+				<div class="col-lg-3 col-md-3">
+	    			<div class="divStylesNews">
+	    			 	<h5>Facebook 'excited' about ads potential as it reaches 4bn daily video views</h5>
+						<p class="paragraphText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis autem, vitae facilis eum pariatur, in dicta sapiente maxime eligendi! Voluptatum soluta consequuntur tempora, dignissimos animi ab dolorem velit eos quia?</p>
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>   			 									
+    			 	</div>				
+     			</div>
+
+			</div><!--end col-lg-10 col-lg-offset-2-->
+		</div><!--end of row-->
+	</div><!--end of container-->
+   
+	
+	<div class="container">
+		<div class="row bottomRow">
+			<div class="col-lg-2 hidden-md hidden-sm hidden-xs">
+				<div class="dropdown">
+					<button class="btn btn-primary" type="button" id="todaysNewsBtn">
+			  		All today's news
+					</button>					
+				</div>
+			</div>
+		</div><!--end of row-->
+			
+	
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="dropdown">
+					<button class="btn btn-primary btnExpand" type="button" data-toggle="collapse" data-target="#collapseNewsBtn" aria-expanded="false" aria-controls="collapseNewsBtn"><i class="glyphicon glyphicon-plus glyphicon-lg"></i><span style="font-family: Guardian Egyptian Web">
+			  		More news</span>
+					</button>
+					<div class="collapse" id="collapseNewsBtn">Dropdown menu items here</div>
+				</div>
+			</div>
+		</div><!--end of row-->		
+	</div><!--end container--> 
+
+  <!--END NEWS SECTION-->
+
+
+  <!--PEOPLE SECTION-->
+
+	<div class="container">
+   		<div class="row">
+	    	<div class="col-lg-12">
+	    		<div class="breadcrumbs">
+		        	<p class="homeTech"></p>
+			    </div>
+	    	</div>			
+		</div><!--end of row-->
+
+
+
+		<div class="row">
+			<div class="col-lg-2">
+				<div class="techStyle">
+	    			<span class="text">People</span>
+	    		</div>
+    		</div>
+			
+
+    		<div class="col-lg-10 col-lg-offset-2">	
+				<div class="col-lg-3 col-md-3">
+					<div class="divStylesColored" id="peopleArticle">
+						<img src="images/gadgets-section/article-4.jpeg" alt="photo" class="img-responsive">
+						<h3 id="peopleHeadline">Samsung drops branding from Galaxy phones in Japan</h3>
+						<p class="paragraphText">
+							Lorem ipsum dolor sit amet, consectetur 
+						</p>
+						<p class="comments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>
+	     		</div>
+
+				
+
+				<div class="col-lg-3 col-md-3">
+					<div class="divStylesPeople">						
+						<h5>'Peter Molyneux wanted to change the world': why Godus co-designer Jack Attridge is leaving 22Cans</h5>
+						<p class="paragraphText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis autem, vitae facilis eum pariatur, in dicta sapiente maxime eligendi! Voluptatum soluta consequuntur tempora, dignissimos animi ab dolorem velit eos quia?</p>
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>						
+				</div>
+
+				
+
+				<div class="col-lg-3 col-md-3">
+					<div class="divStylesPeople">						
+						<h5>Jack Monroe quits Twitter over homophobic abuse</h5>
+						<p class="paragraphText">Apple refuses to answer questions over 'homophobic' Russian Siri</p>
+						<p class="paragraphText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum aspernatur nesciunt ut, ipsa. Vel corporis neque provident. Asperiores id nobis nesciunt. Sit maiores voluptas ipsam, perferendis est quis quia autem.</p>
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>8 comments</span></p>
+					</div>				
+				</div>
+
+				<div class="col-lg-3 col-md-3">
+	    			<div class="divStylesPeople">
+	    			 	<h5>How to become a YouTube star: seven tips from Luzu</h5>
+						<p class="paragraphText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis autem, vitae facilis eum pariatur, in dicta sapiente maxime eligendi! Voluptatum soluta consequuntur tempora, dignissimos animi ab dolorem velit eos quia?</p>
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>   			 									
+    			 	</div>				
+     			</div>
+
+			</div><!--end col-lg-10 col-lg-offset-2-->
+		</div><!--end of row-->
+	</div><!--end of container-->
+   
+	
+	<div class="container">
+		<div class="row bottomRow">
+			<div class="col-lg-2 hidden-md hidden-sm hidden-xs">
+				<div class="dropdown">
+					<button class="btn btn-primary" type="button" id="todaysPeopleBtn">
+			  		All today's people
+					</button>					
+				</div>
+			</div>
+		</div><!--end of row-->
+			
+	
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="dropdown">
+					<button class="btn btn-primary btnExpand" type="button" data-toggle="collapse" data-target="#collapsePeopleBtn" aria-expanded="false" aria-controls="collapsePeopleBtn"><i class="glyphicon glyphicon-plus glyphicon-lg"></i><span style="font-family: Guardian Egyptian Web">
+			  		More people</span>
+					</button>
+					<div class="collapse" id="collapsePeopleBtn">Dropdown menu items here</div>
+				</div>
+			</div>
+		</div><!--end of row-->		
+	</div><!--end container-->
+
+  <!--END PEOPLE SECTION-->
+
+
+  <!--IN DEPTH SECTION-->
+
+	<div class="container">
+   		<div class="row">
+	    	<div class="col-lg-12">
+	    		<div class="breadcrumbs">
+		        	<p class="homeTech"></p>
+			    </div>
+	    	</div>			
+		</div><!--end of row-->
+
+
+
+		<div class="row">
+			<div class="col-lg-2">
+				<div class="techStyle">
+	    			<span class="text">In depth</span>
+	    		</div>
+    		</div>
+			
+
+    		<div class="col-lg-10 col-lg-offset-2">	
+				<div class="col-lg-6 col-md-6">
+					<div class="divStylesColored">
+						<img src="images/in-depth-section/article-1.jpg" alt="photo" class="img-responsive">
+						<h3>Can anything curb the dominance of the internet's big guns?</h3>
+						
+						<p class="comments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>
+	     		</div>
+
+				
+
+				<div class="col-lg-6 col-md-6">
+					<div class="divStyles">
+						<img src="images/in-depth-section/article-2.jpeg" alt="photo" class="img-responsive">						
+						<h4>Star Wars Battlefront – the quest to capture fan nostalgia</h4>
+						
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>						
+				</div>								
+			</div><!--end col-lg-10 col-lg-offset-2-->
+		</div><!--end of row-->
+
+		<div class="row bottomRow">			
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="col-lg-4 col-md-4">
+	    			<div class="divStylesRowThree">
+	    			 	<h5>Can the internet of things save us from traffic jams?</h5>
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>   			 									
+    			 	</div>				
+     			</div>
+
+	     		<div class="col-lg-4 col-md-4">
+	     			<div class="divStylesRowThree">
+	     				<h5>Can the internet be saved without harming democracy?</h5>
+	     				<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p> 
+	     			</div>
+	     		</div>
+
+				<div class="col-lg-4 col-md-4">	
+					<div class="divStylesRowThree">
+						<h5>20 Apple Watch apps worth trying on launch day – in their developers' words</h5>		
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>				
+			</div>   			
+		</div><!--end of row-->
+
+		<div class="row">
+			<div class="col-lg-2 hidden-md hidden-sm hidden-xs">
+				<div class="dropdown">
+					<button class="btn btn-primary" type="button" id="todaysInDepthBtn">
+			  		All today's in depth
+					</button>					
+				</div>
+			</div>
+		</div><!--end of row-->
+	</div><!--end of container-->
+   
+	
+	<div class="container">						
+		<div class="row bottomRow">
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="dropdown">
+					<button class="btn btn-primary btnExpand" type="button" data-toggle="collapse" data-target="#collapseInDepthBtn" aria-expanded="false" aria-controls="collapseInDepthBtn"><i class="glyphicon glyphicon-plus glyphicon-lg"></i><span style="font-family: Guardian Egyptian Web">
+			  		More in depth</span>
+					</button>
+					<div class="collapse" id="collapseInDepthBtn">Dropdown menu items here</div>
+				</div>
+			</div>
+		</div><!--end of row-->		
+	</div><!--end container-->
+
+  <!--END IN DEPTH SECTION-->
+
+
+  <!--REVIEWS SECTION-->
+
+	<div class="container">
+   		<div class="row">
+	    	<div class="col-lg-12">
+	    		<div class="breadcrumbs">
+		        	<p class="homeTech"></p>
+			    </div>
+	    	</div>			
+		</div><!--end of row-->
+
+
+
+		<div class="row">
+			<div class="col-lg-2">
+				<div class="techStyle">
+	    			<span class="text">Reviews</span>
+	    		</div>
+    		</div>
+			
+
+    		<div class="col-lg-10 col-lg-offset-2">	
+				<div class="col-lg-6 col-md-6">
+					<div class="divStylesColored">
+						<img src="images/reviews-section/article-1.jpeg" alt="photo" class="img-responsive">
+						<h3>Upgrading from iPhoto or Aperture to Apple's Photos? Read this</h3>
+						
+						<p class="comments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>
+	     		</div>
+
+				
+
+				<div class="col-lg-6 col-md-6">
+					<div class="divStyles">
+						<img src="images/reviews-section/article-2.jpeg" alt="photo" class="img-responsive">						
+						<h4>Microsoft Band review: sensor-packed – if you don't mind looking like an offender</h4>
+						
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>						
+				</div>
+								
+			</div><!--end col-lg-10 col-lg-offset-2-->
+		</div><!--end of row-->
+
+		<div class="row">
+			
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="col-lg-4 col-md-4">
+	    			<div class="divStylesRowTwo">
+	    			 	<h5>Soundbar speakers – six of the best available</h5>
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>   			 									
+    			 	</div>				
+     			</div>
+
+	     		<div class="col-lg-4 col-md-4">
+	     			<div class="divStylesRowTwo">
+	     				<h5>Periscope review: does Twitter's live-streaming service beat Meerkat?</h5>
+	     				<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p> 
+	     			</div>
+	     		</div>
+
+				<div class="col-lg-4 col-md-4">	
+					<div class="divStylesRowTwo">
+						<h5>ZipJet, Zomato review – dry-cleaning and restaurant-booking apps</h5>		
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>				
+			</div>   			
+		</div><!--end of row-->
+
+		<div class="row bottomRow">
+			
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="col-lg-4 col-md-4">
+	    			<div class="divStylesRowThree">
+	    			 	<h5>Wine: the trouble with wine apps</h5>
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>   			 									
+    			 	</div>				
+     			</div>
+
+	     		<div class="col-lg-4 col-md-4">
+	     			<div class="divStylesRowThree">
+	     				<h5>Snow White by Nosy Crow: 'Getting children sparkly-eyed about storytelling'</h5>
+	     				<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p> 
+	     			</div>
+	     		</div>
+
+				<div class="col-lg-4 col-md-4">	
+					<div class="divStylesRowThree">
+						<h5>Auxy review – the latest app aiming for a hit from iPad music-making</h5>		
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>				
+			</div><!--end col-lg-10 col-lg-offset-2-->   			
+		</div><!--end of row-->
+
+		<div class="row">
+			<div class="col-lg-2 hidden-md hidden-sm hidden-xs">
+				<div class="dropdown">
+					<button class="btn btn-primary" type="button" id="todaysReviewsBtn">
+			  		All today's reviews
+					</button>					
+				</div>
+			</div>
+		</div><!--end of row-->
+	</div><!--end of container-->
+   
+	
+	<div class="container">						
+		<div class="row bottomRow">
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="dropdown">
+					<button class="btn btn-primary btnExpand" type="button" data-toggle="collapse" data-target="#collapseReviewsBtn" aria-expanded="false" aria-controls="collapseReviewsBtn"><i class="glyphicon glyphicon-plus glyphicon-lg"></i><span style="font-family: Guardian Egyptian Web">
+			  		More reviews</span>
+					</button>
+					<div class="collapse" id="collapseReviewsBtn">Dropdown menu items here</div>
+				</div>
+			</div>
+		</div><!--end of row-->		
+	</div><!--end container-->
+
+  <!--END REVIEWS SECTION-->
+
+
+  <!--GAMES SECTION-->
+
+	<div class="container">
+   		<div class="row">
+	    	<div class="col-lg-12">
+	    		<div class="breadcrumbs">
+		        	<p class="homeTech"></p>
+			    </div>
+	    	</div>			
+		</div><!--end of row-->
+
+
+
+		<div class="row">
+			<div class="col-lg-2">
+				<div class="techStyle">
+	    			<span class="text">Games</span>
+	    		</div>
+    		</div>
+			
+
+    		<div class="col-lg-10 col-lg-offset-2">	
+				<div class="col-lg-6 col-md-6">
+					<div class="divStylesColored">
+						<img src="images/games-section/article-1.jpeg" alt="photo" class="img-responsive imgLarge">
+						<h3>Blood on the living-room table: why I still love Game of Thrones board game</h3>
+						
+						<p class="comments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>
+	     		</div>
+
+				
+				<div class="col-lg-6 col-md-6">
+					<div class="divStyles">
+						<img src="images/games-section/article-2.jpeg" alt="photo" class="img-responsive imgLarge">						
+						<h4>Grand Theft Auto V on PC review: Rockstar outdoes itself in world-building</h4>
+						
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>						
+				</div>								
+			</div><!--end col-lg-10 col-lg-offset-2-->
+		</div><!--end of row-->
+
+		<div class="row">			
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="col-lg-4 col-md-4">
+	    			<div class="divStylesRowThree">
+	    			 	<h5>Can the internet of things save us from traffic jams?</h5>
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>   			 									
+    			 	</div>				
+     			</div>
+		
+	     		<div class="col-lg-4 col-md-4">
+	     			<div class="divStylesRowThree">
+	     				<h5>Can the internet be saved without harming democracy?</h5>
+	     				<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p> 
+	     			</div>
+	     		</div>
+
+				<div class="col-lg-4 col-md-4">	
+					<div class="divStylesRowThree">
+						<h5>20 Apple Watch apps worth trying on launch day – in their developers' words</h5>		
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>				
+			</div><!--end col-lg-10 col-lg-offset-2-->   			
+		</div><!--end of row-->
+
+		<div class="row bottomRow">
+			<div class="col-lg-2 hidden-md hidden-sm hidden-xs">
+				<div class="dropdown">
+					<button class="btn btn-primary" type="button" id="todaysGamesBtn">
+			  		All today's games
+					</button>					
+				</div>
+			</div>
+		</div><!--end of row-->
+	</div><!--end of container-->
+   
+	
+	<div class="container">						
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="dropdown">
+					<button class="btn btn-primary btnExpand" type="button" data-toggle="collapse" data-target="#collapseGamesBtn" aria-expanded="false" aria-controls="collapseGamesBtn"><i class="glyphicon glyphicon-plus glyphicon-lg"></i><span style="font-family: Guardian Egyptian Web">
+			  		More games</span>
+					</button>
+					<div class="collapse" id="collapseGamesBtn">Dropdown menu items here</div>
+				</div>
+			</div>
+		</div><!--end of row-->		
+	</div><!--end container-->
+
+  <!--END GAMES SECTION-->
+
+
+  <!--OPINION SECTION-->
+
+	<div class="container">
+   		<div class="row">
+	    	<div class="col-lg-12">
+	    		<div class="breadcrumbs">
+		        	<p class="homeTech"></p>
+			    </div>
+	    	</div>			
+		</div><!--end of row-->
+
+
+
+		<div class="row">
+			<div class="col-lg-2">
+				<div class="techStyle">
+	    			<span class="text">Opinion</span>
+	    		</div>
+    		</div>
+			
+
+    		<div class="col-lg-10 col-lg-offset-2">	
+				<div class="col-lg-6 col-md-6">
+					<div class="divStylesColored">
+						<img src="images/opinion-section/article-1.jpeg" alt="photo" class="img-responsive">
+						<h3>Video games need fewer 'sexy' women and more you can actually fancy</h3>
+						
+						<p class="comments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>
+	     		</div>
+
+				
+				<div class="col-lg-6 col-md-6">
+					<div class="divStyles">
+						<img src="images/opinion-section/article-4.jpg" alt="photo" class="img-responsive imgLarge">							
+						<h4>Is the #SelfieEsteem campaign anything more than an internet gimmick?</h4>
+						
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>						
+				</div>								
+			</div><!--end col-lg-10 col-lg-offset-2-->
+		</div><!--end of row-->
+
+		<div class="row">			
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="col-lg-4 col-md-4">
+	    			<div class="divStylesRowThree">
+	    			 	<h5>BitTorrent: the comic book shop of the future?</h5>
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>   			 									
+    			 	</div>				
+     			</div>
+		
+	     		<div class="col-lg-4 col-md-4">
+	     			<div class="divStylesRowThree">
+	     				<h5>Google dominates search. But the real problem is its monopoly on data</h5>
+	     				<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p> 
+	     			</div>
+	     		</div>
+
+				<div class="col-lg-4 col-md-4">	
+					<div class="divStylesRowThree">
+						<h5>All hail Uber! But what about the black cabs?</h5>		
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>				
+			</div><!--end col-lg-10 col-lg-offset-2-->   			
+		</div><!--end of row-->
+
+		<div class="row bottomRow">
+			<div class="col-lg-2 hidden-md hidden-sm hidden-xs">
+				<div class="dropdown">
+					<button class="btn btn-primary" type="button" id="todaysOpinionsBtn">
+			  		All today's opinions
+					</button>					
+				</div>
+			</div>
+		</div><!--end of row-->
+	</div><!--end of container-->
+   
+	
+	<div class="container">						
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="dropdown">
+					<button class="btn btn-primary btnExpand" type="button" data-toggle="collapse" data-target="#collapseOpinionsBtn" aria-expanded="false" aria-controls="collapseOpinionsBtn"><i class="glyphicon glyphicon-plus glyphicon-lg"></i><span style="font-family: Guardian Egyptian Web">
+			  		More opinions</span>
+					</button>
+					<div class="collapse" id="collapseOpinionsBtn">Dropdown menu items here</div>
+				</div>
+			</div>
+		</div><!--end of row-->		
+	</div><!--end container-->
+
+  <!--END OPINION SECTION-->
+
+
+  <!--SPOTLIGHT SECTION-->
+
+	<div class="container">
+   		<div class="row">
+	    	<div class="col-lg-12">
+	    		<div class="breadcrumbs">
+		        	<p class="homeTech"></p>
+			    </div>
+	    	</div>			
+		</div><!--end of row-->
+
+
+
+		<div class="row">
+			<div class="col-lg-2">
+				<div class="techStyle">
+	    			<span class="text">Spotlight</span>
+	    		</div>
+    		</div>
+			
+
+    		<div class="col-lg-10 col-lg-offset-2">	
+				<div class="col-lg-10 col-md-10">
+					<div class="divStylesColored">
+						<img src="images/spotlight-section/article-1.jpeg" alt="photo" class="img-responsive imgLarge">
+						<h3>Don't press paws: how DogTV built a global TV channel for man's best friends</h3>
+						<h4>
+							No cats allowed on the first TV station for dogs, which wants to relieve separation anxiety: ‘People feel really guilty leaving their dogs at home...’
+						</h4>
+						<p class="comments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>
+	     		</div>								
+			</div><!--end col-lg-10 col-lg-offset-2-->
+		</div><!--end of row-->
+	</div><!--end of container-->
+   
+	
+	<div class="container">
+		<div class="row bottomRow">
+			<div class="col-lg-2 hidden-md hidden-sm hidden-xs">
+				<div class="dropdown">
+					<button class="btn btn-primary" type="button" id="todaysSpotlightBtn">
+			  		All Spotlights
+					</button>					
+				</div>
+			</div>
+		</div>
+			
+	
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="dropdown">
+					<button class="btn btn-primary btnExpand" type="button" data-toggle="collapse" data-target="#collapseSpotlightBtn" aria-expanded="false" aria-controls="collapseSpotlightBtn"><i class="glyphicon glyphicon-plus glyphicon-lg"></i><span style="font-family: Guardian Egyptian Web">
+			  		More Spotlights</span>
+					</button>
+					<div class="collapse" id="collapseSpotlightBtn">Dropdown menu items here</div>
+				</div>
+			</div>
+		</div><!--end of row-->		
+	</div><!--end container--> 
+
+  <!--END SPOTLIGHT SECTION-->
+
+
+  <!--'ON THIS SITE' SECTION-->
+
+	<div class="container">
+   		<div class="row">
+	    	<div class="col-lg-12">
+	    		<div class="breadcrumbs">
+		        	<p class="homeTech"></p>
+			    </div>
+	    	</div>			
+		</div><!--end of row-->
+
+
+
+		<div class="row">
+			<div class="col-lg-2">
+				<div class="techStyle">
+	    			<span class="text">On this site</span>
+	    		</div>
+    		</div>
+			
+
+    		<div class="col-lg-10 col-lg-offset-2">	
+				<div class="col-lg-3 col-md-3">
+					<div class="divStylesSiteSect">
+						<img src="images/on-this-site-section/article-1.jpg" alt="photo" class="img-responsive">
+						<h4 class="h4Dark">Tech Weekly / A new tech bubble? - Tech Weekly podcast</h4>
+						
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>
+	     		</div>
+
+	     		<div class="col-lg-3 col-md-3">
+					<div class="divStylesSiteSect">
+						<img src="images/on-this-site-section/article-2.jpeg" alt="photo" class="img-responsive">
+						<h4 class="h4Dark">Ask Jack / How can I add a touchscreen to my desktop PC?</h4>
+						
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>
+	     		</div>
+
+	     		<div class="col-lg-3 col-md-3">
+					<div class="divStylesSiteSect" id="purpleBackground">
+						<img src="images/on-this-site-section/article-3.jpeg" alt="photo" class="img-responsive">
+						<h4 class="h4Dark" style="color: #FCFCFC">Ask Jack / How to survive in a digital economy where things are free</h4>
+						
+						<p class="appleComments" style="color: #FCFCFC"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>
+	     		</div>
+
+	     		<div class="col-lg-3 col-md-3">
+					<div class="divStylesSiteSect">
+						<img src="images/on-this-site-section/article-4.jpeg" alt="photo" class="img-responsive">
+						<h4 class="h4Dark">Tech Weekly / How to survive in a digital economy where things are free</h4>
+						
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>
+	     		</div>								
+			</div><!--end col-lg-10 col-lg-offset-2-->
+		</div><!--end of row-->
+	</div><!--end of container-->
+   
+	
+	<div class="container">
+		<div class="row bottomRow">
+			<div class="col-lg-2 hidden-md hidden-sm hidden-xs">
+				<div class="dropdown">
+					<button class="btn btn-primary" type="button" id="todaysOnSiteBtn">
+			  		All on this site
+					</button>					
+				</div>
+			</div>
+		</div><!--end of row-->
+			
+	
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="dropdown">
+					<button class="btn btn-primary btnExpand" type="button" data-toggle="collapse" data-target="#collapseOnSiteBtn" aria-expanded="false" aria-controls="collapseOnSiteBtn"><i class="glyphicon glyphicon-plus glyphicon-lg"></i><span style="font-family: Guardian Egyptian Web">
+			  		More on this site</span>
+					</button>
+					<div class="collapse" id="collapseOnSiteBtn">Dropdown menu items here</div>
+				</div>
+			</div>
+		</div><!--end of row-->		
+	</div><!--end container-->
+
+  <!--END OF 'ON THIS SITE' SECTION-->
+
+
+  <!--GADGETS SECTION-->
+
+	<div class="container">
+   		<div class="row">
+	    	<div class="col-lg-12">
+	    		<div class="breadcrumbs">
+		        	<p class="homeTech"></p>
+			    </div>
+	    	</div>			
+		</div><!--end of row-->
+
+
+		<div class="row">
+			<div class="col-lg-2">
+				<div class="techStyle">
+	    			<span class="text">Gadgets</span>
+	    		</div>
+    		</div>
+			
+
+    		<div class="col-lg-10 col-lg-offset-2">	
+				<div class="col-lg-3 col-md-3">
+					<div class="divStylesSiteSect">
+						<img src="images/gadgets-section/article-1.jpeg" alt="photo" class="img-responsive">
+						<h4 class="h4Dark">Tech Weekly / A new tech bubble? - Tech Weekly podcast</h4>
+						
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>
+	     		</div>
+
+	     		<div class="col-lg-3 col-md-3">
+					<div class="divStylesSiteSect">
+						<img src="images/gadgets-section/article-2.jpeg" alt="photo" class="img-responsive">
+						<h4 class="h4Dark">Ask Jack / How can I add a touchscreen to my desktop PC?</h4>
+						
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>
+	     		</div>
+
+	     		<div class="col-lg-3 col-md-3">
+					<div class="divStylesSiteSect" id="purpleBackground2">
+						<img src="images/gadgets-section/article-3.jpeg" alt="photo" class="img-responsive">
+						<h4 class="h4Dark" style="color: #FCFCFC">Ask Jack / How to survive in a digital economy where things are free</h4>
+						
+						<p class="appleComments" style="color: #FCFCFC"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>
+	     		</div>
+
+	     		<div class="col-lg-3 col-md-3">
+					<div class="divStylesSiteSect">
+						<img src="images/gadgets-section/article-4.jpeg" alt="photo" class="img-responsive">
+						<h4 class="h4Dark">Tech Weekly / How to survive in a digital economy where things are free</h4>
+						
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>
+	     		</div>								
+			</div><!--end col-lg-10 col-lg-offset-2-->
+		</div><!--end of row-->
+	</div><!--end of container-->
+   
+	
+	<div class="container">
+		<div class="row bottomRow">
+			<div class="col-lg-2 hidden-md hidden-sm hidden-xs">
+				<div class="dropdown">
+					<button class="btn btn-primary" type="button" id="todaysGadgetsBtn">
+			  		All gadgets
+					</button>					
+				</div>
+			</div>
+		</div><!--end of row-->
+			
+	
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="dropdown">
+					<button class="btn btn-primary btnExpand" type="button" data-toggle="collapse" data-target="#collapseGadgetsBtn" aria-expanded="false" aria-controls="collapseGadgetsBtn"><i class="glyphicon glyphicon-plus glyphicon-lg"></i><span style="font-family: Guardian Egyptian Web">
+			  		More gadgets</span>
+					</button>
+					<div class="collapse" id="collapseGadgetsBtn">Dropdown menu items here</div>
+				</div>
+			</div>
+		</div><!--end of row-->		
+	</div><!--end container-->
+
+  <!--END GADGETS SECTION-->
+
+
+  <!--POPULAR SECTION ACROSS TECHNOLOGY-->
+
+	<div class="container">
+   		<div class="row">
+	    	<div class="col-lg-12">
+	    		<div class="breadcrumbs">
+		        	<p class="homeTech"></p>
+			    </div>
+	    	</div>			
+		</div><!--end of row-->
+
+
+
+		<div class="row">
+			<div class="col-lg-2">
+				<div class="techStyle">
+	    			<span class="text">Popular (technology)</span>
+	    		</div>
+    		</div>
+		
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="col-lg-12 col-md-12">
+	    			<div class="divStylesRowThree">
+	    			 	<h5> Google Maps hides an image of the Android robot urinating on Apple</h5>
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>   			 									
+    			 	</div>				
+     			</div>
+		
+	     		<div class="col-lg-12 col-md-12">
+	     			<div class="divStylesRowThree">
+	     				<h5>Review Samsung Galaxy S6 review: the iPhone killer</h5>
+	     				<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p> 
+	     			</div>
+	     		</div>
+
+				<div class="col-lg-12 col-md-12">	
+					<div class="divStylesRowThree">
+						<h5>Crowdfunding a war: Ukraine's DIY drone-makers</h5>		
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>
+
+				<div class="col-lg-12 col-md-12">	
+					<div class="divStylesRowThree">
+						<h5>Wi-Fi hack creates 'no iOS zone' that cripples iPhones and iPads</h5>		
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>
+
+				<div class="col-lg-12 col-md-12">	
+					<div class="divStylesRowThree">
+						<h5>Wikipedia volunteer who blocked 'Grant Shapps' account: I stand by my decision</h5>		
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>				
+			</div><!--end col-lg-10 col-lg-offset-2--> 	    		
+		</div><!--end of row-->
+
+		<div class="row">			
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="col-lg-12 col-md-12">
+	    			<div class="divStylesRowThree">
+	    			 	<h5>Game developers on Apple Watch: smartwatches are all about context</h5>
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>   			 									
+    			 	</div>				
+     			</div>
+		
+	     		<div class="col-lg-12 col-md-12">
+	     			<div class="divStylesRowThree">
+	     				<h5>Spotify data hints at a 'musical midlife crisis' for 42-year-old music fans</h5>
+	     				<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p> 
+	     			</div>
+	     		</div>
+
+				<div class="col-lg-12 col-md-12">	
+					<div class="divStylesRowThree">
+						<h5>EU warns of 'point of no return' if internet firms are not regulated soon</h5>		
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>
+
+				<div class="col-lg-12 col-md-12">	
+					<div class="divStylesRowThree">
+						<h5>As Apple Watch launches, smartwatch app makers explore new interfaces</h5>		
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>
+
+				<div class="col-lg-12 col-md-12">	
+					<div class="divStylesRowThree">
+						<h5>20 Apple Watch apps worth trying on launch day – in their developers' words</h5>		
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>				
+			</div><!--end col-lg-10 col-lg-offset-2-->   			
+		</div><!--end of row-->
+
+		<div class="row bottomRow">
+			<div class="col-lg-2 hidden-md hidden-sm hidden-xs">
+				<div class="dropdown">
+					<button class="btn btn-primary" type="button" id="popularTechBtn">
+			  		Popular in technology
+					</button>					
+				</div>
+			</div>
+		</div><!--end of row-->
+	</div><!--end of container-->
+   
+	
+	<div class="container">						
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="dropdown">
+					<button class="btn btn-primary btnExpand" type="button" data-toggle="collapse" data-target="#collapsePopTechBtn" aria-expanded="false" aria-controls="collapsePopTechBtn"><i class="glyphicon glyphicon-plus glyphicon-lg"></i><span style="font-family: Guardian Egyptian Web">
+			  		More</span>
+					</button>
+					<div class="collapse" id="collapsePopTechBtn">Dropdown menu items here</div>
+				</div>
+			</div>
+		</div><!--end of row-->		
+	</div><!--end container-->
+
+  <!--END POPULAR SECTION ACROSS TECHNOLOGY-->
+
+
+  <!--POPULAR SECTION ACROSS GUARDIAN-->
+
+	<div class="container">
+   		<div class="row">
+	    	<div class="col-lg-12">
+	    		<div class="breadcrumbs">
+		        	<p class="homeTech"></p>
+			    </div>
+	    	</div>			
+		</div><!--end of row-->
+
+
+		<div class="row">
+			<div class="col-lg-2">
+				<div class="techStyle">
+	    			<span class="text">Popular (Guardian)</span>
+	    		</div>
+    		</div>
+		
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="col-lg-12 col-md-12">
+	    			<div class="divStylesRowThree">
+	    			 	<h5>Everybody Loves Raymond actor Sawyer Sweeten dies aged 19</h5>
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>   			 									
+    			 	</div>				
+     			</div>
+		
+	     		<div class="col-lg-12 col-md-12">
+	     			<div class="divStylesRowThree">
+	     				<h5>Teen liposuction and busty pinatas: narcoaesthetics in Colombia – in pictures</h5>
+	     				<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p> 
+	     			</div>
+	     		</div>
+
+				<div class="col-lg-12 col-md-12">	
+					<div class="divStylesRowThree">
+						<h5>Why Thierry Henry is an unpopular – and terrible – pundit on Sky Sports</h5>		
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>
+
+				<div class="col-lg-12 col-md-12">	
+					<div class="divStylesRowThree">
+						<h5>Top Gear to have all-new team as Richard Hammond rules himself out</h5>		
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>
+
+				<div class="col-lg-12 col-md-12">	
+					<div class="divStylesRowThree">
+						<h5>Google Maps hides an image of the Android robot urinating on Apple</h5>		
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>				
+			</div><!--end col-lg-10 col-lg-offset-2--> 	   		
+		</div><!--end of row-->
+
+		<div class="row">			
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="col-lg-12 col-md-12">
+	    			<div class="divStylesRowThree">
+	    			 	<h5>Liberland: hundreds of thousands apply to live in world's newest 'country'</h5>
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>   			 									
+    			 	</div>				
+     			</div>
+		
+	     		<div class="col-lg-12 col-md-12">
+	     			<div class="divStylesRowThree">
+	     				<h5>They think it’s all over: ex-footballers on life after the final whistle</h5>
+	     				<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p> 
+	     			</div>
+	     		</div>
+
+				<div class="col-lg-12 col-md-12">	
+					<div class="divStylesRowThree">
+						<h5>CL semi-finals: Barcelona v Bayern Munich and Juventus v Real Madrid</h5>		
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>
+
+				<div class="col-lg-12 col-md-12">	
+					<div class="divStylesRowThree">
+						<h5>José Mourinho on Arsenal reunion: Fàbregas joined Chelsea to win titles</h5>		
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>
+
+				<div class="col-lg-12 col-md-12">	
+					<div class="divStylesRowThree">
+						<h5>UN human rights chief denounces Sun over Katie Hopkins 'cockroach' column</h5>		
+						<p class="appleComments"><span class="toBottom"><i class="glyphicon glyphicon-comment"></i>12 comments</span></p>
+					</div>	
+				</div>				
+			</div><!--end col-lg-10 col-lg-offset-2-->   			
+		</div><!--end of row-->
+
+		<div class="row bottomRow">
+			<div class="col-lg-2 hidden-md hidden-sm hidden-xs">
+				<div class="dropdown">
+					<button class="btn btn-primary" type="button" id="popularGuardianBtn">
+			  		Popular (Guardian)
+					</button>					
+				</div>
+			</div>
+		</div><!--end of row-->
+	</div><!--end of container-->
+   
+	
+	<div class="container">						
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-2">
+				<div class="dropdown">
+					<button class="btn btn-primary btnExpand" type="button" data-toggle="collapse" data-target="#collapsePopGuardBtn" aria-expanded="false" aria-controls="collapsePopGuardBtn"><i class="glyphicon glyphicon-plus glyphicon-lg"></i><span style="font-family: Guardian Egyptian Web">
+			  		More</span>
+					</button>
+					<div class="collapse" id="collapsePopGuardBtn">Dropdown menu items here</div>
+				</div>
+			</div>
+		</div><!--end of row-->		
+	</div><!--end container-->
+
+  <!--END POPULAR SECTION ACROSS GUARDIAN-->
+
+
+
+	      
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>	
+  </body>
+</html>
